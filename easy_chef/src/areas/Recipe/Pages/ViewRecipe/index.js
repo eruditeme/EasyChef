@@ -485,7 +485,7 @@ const ViewRecipe = () => {
                                  style={{overflowY: "scroll", "minHeight": "312px"}}>
                                 <ul className="list-unstyled chat-history m-3">
                                     {allcomment.map(c => (
-                                        <Comments date_created={c.date_created} avatar={c.avatar} text={c.text}
+                                        <Comments date_created={c.date_created} avatar={c.user_full_name.avatar} text={c.text}
                                                   full_name={c.user_full_name.full_name} attachments={c.attachments}/>
                                     ))}
                                 </ul>

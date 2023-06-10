@@ -54,7 +54,7 @@ class FavoriteSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserProfile
-        fields = ('full_name',)
+        fields = ('full_name', 'avatar')
 
 
 class CreatorSerializer(serializers.ModelSerializer):
