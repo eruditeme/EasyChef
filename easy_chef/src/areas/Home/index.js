@@ -168,10 +168,6 @@ const Home = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="col-lg-3">
-                        <h4>Recipes We're Loving</h4>
-                        (//insert recipes loved here)
-                    </div>
                 </div>
             </div>
             {/*<div className="row mt-4">*/}
